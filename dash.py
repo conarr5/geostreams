@@ -2,6 +2,7 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import openpyxl as op
 
 df = pd.read_excel(
     io = "Dashboard_Data.xlsx",
