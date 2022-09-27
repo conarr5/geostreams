@@ -21,7 +21,7 @@ st.set_page_config(page_title = "Info Dashboard",
 st.sidebar.header("Please filter here:")
 country = st.sidebar.multiselect(
     "Select Country:",
-    options = df["Country"].unique(),
+    options = df["Country"],
     default = "USA"
 )
 
