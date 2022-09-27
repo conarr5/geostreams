@@ -67,7 +67,7 @@ emission_by_country = (
 fig_emissions = px.bar(
     emission_by_country,
     x = "Total_GHG_Emissions",
-    y = emission_by_country.index,
+    y = emission_by_country,
     orientation = "h",
     title = "<b>2019 Emissions by Country</b>",
     color_discrete_sequence = ["#339933"] * len(emission_by_country),
