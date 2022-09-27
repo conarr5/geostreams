@@ -47,10 +47,7 @@ st.markdown("##")
 total_emissions = int((df_selection["Total_GHG_Emissions"]).sum())
 
 st.markdown("<h2 style='text-align: center; color: grey;'>Selected 2019 CO2 Emission Total (tonnes):</h2>", unsafe_allow_html=True)
-
-middle_column = st.columns(1)
-with middle_column:
-    st.subheader(f"{total_emissions:,}")
+st.subheader(f"{total_emissions:,}")
 
 st.markdown("---")
 
