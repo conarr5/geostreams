@@ -27,7 +27,7 @@ country = st.sidebar.multiselect(
 
 sector = st.sidebar.multiselect(
     "Select Sector:",
-    options = df["Sector"].unique(),
+    options = df["Sector"],
     default = "Agriculture"
 )
 
